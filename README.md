@@ -43,6 +43,9 @@ Chaque dossier contient :
 - Exemples de politiques et configurations  
 ```
 
+### 🔐 Sécurité
+- [Cyber News (GDI.foundation)](docs/security/cyber-news.md)
+
 ---
 
 ### 🛰️ Architecture
