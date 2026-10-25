@@ -63,9 +63,12 @@ Chaque dossier contient :
 ---
 
 ### 📚 Documentation
-- **Android Enterprise :** >>https://developers.google.com/android/work  
-- **Android Management API :** >>https://developers.google.com/android/management  
-- **Zero‑Touch :** >>https://www.android.com/enterprise/management/zero-touch/
+- **Android Enterprise :**
+  >>https://developers.google.com/android/work  
+- **Android Management API :**
+  >>https://developers.google.com/android/management  
+- **Zero‑Touch :**
+  >>https://www.android.com/enterprise/management/zero-touch/
    - *(android.com in Bing)*  
 
 ---
