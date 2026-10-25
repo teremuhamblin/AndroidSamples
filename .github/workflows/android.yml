@@ -31,7 +31,7 @@ jobs:
         run: bash .github/scripts/build_androidsamples.sh -Dorg.gradle.project.ci=true --gradle-user-home=./.gradle
 
       - name: Upload APKs
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: androidsamples-apks
           path: '**/build/**/*.apk'
