@@ -1,0 +1,19 @@
+# AndroidSamples v2.0 — Metadata Project File
+# Documentation interne — Non utilisé par Google
+
+status:       ACTIVE
+project:      AndroidSamples
+version:      2.0
+type:         Android Multi-Modules
+languages:    [Kotlin, Java]
+technologies: [Android, Jetpack, MVVM, CI/CD]
+modules:
+  - app
+  - core
+  - enterprise
+  - utils
+  - feature-modules
+ci:
+  - github-actions
+license: apache2
+maintainer: Teremu Hamblin
