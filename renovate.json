@@ -1,0 +1,30 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":semanticPrefixFix",
+    ":semanticPrefixChore"
+  ],
+
+  "labels": ["dependencies", "renovate"],
+
+  "packageRules": [
+    {
+      "matchManagers": ["gradle"],
+      "enabled": true,
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
+    },
+    {
+      "matchPaths": ["projects/**", "sources/**"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "android"
+    }
+  ],
+
+  "timezone": "Europe/Paris",
+  "schedule": ["after 9am and before 6pm on monday"],
+  "dependencyDashboard": true
+}
