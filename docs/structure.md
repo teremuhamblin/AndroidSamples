@@ -14,7 +14,7 @@
 # 📁 AndroidSamples
 - Version 1.0.0
 
-```text
+``text
 AndroidSamples/
 │
 ├── projects/
@@ -51,18 +51,25 @@ AndroidSamples/
 │   └── README-docs.md
 │
 ├── .github/
+│   ├── MAINTAINERS.md
+│   ├── CODE_OF_CONDUCT.md
+│   ├── SUPPORT.md
+│   ├── SECURITY.md
 │   ├── workflows/
 │   │   ├── android-ci.yml
 │   │   └── lint-check.yml
 │   │
 │   ├── ISSUE_TEMPLATE/
-│   │   ├── bug_report.md
-│   │   ├── feature_request.md
-│   │   └── documentation.md
+│   │   ├── bug_report.yml
+│   │   ├── feature_request.yml
+│   │   └── documentation.yml
 │   │
-│   ├── PULLREQUESTTEMPLATE.md
+│   ├── PULL_REQUEST_TEMPLATE/
+│   │   ├── pr.yml
 │   └── FUNDING.yml
 │
+├── .gitignore 
+├── .gitattributes
 ├── LICENSE
 └── README.md
 ```
@@ -75,7 +82,8 @@ AndroidSamples/
 ```text
 - Chaque module Android Enterprise est isolé  
 - Idéal pour GitHub, CI/CD, documentation  
-- Structure claire pour les contributeurs  
+- Structure claire
+pour les contributeurs  
 ```
 
 ---
