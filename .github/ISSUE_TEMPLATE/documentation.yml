@@ -1,0 +1,33 @@
+name: 📘 Documentation Update
+description: Demander une mise à jour ou correction de documentation
+title: "[Docs] "
+labels: ["documentation"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de préciser la documentation à mettre à jour.
+
+  - type: input
+    id: file
+    attributes:
+      label: Fichier concerné
+      placeholder: ex: docs/architecture/global-architecture.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Problème
+      placeholder: Décris ce qui doit être corrigé ou amélioré.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      placeholder: Décris la modification souhaitée.
