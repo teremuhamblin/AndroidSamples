@@ -55,6 +55,7 @@ AndroidSamples/
 │   ├── CODE_OF_CONDUCT.md
 │   ├── SUPPORT.md
 │   ├── SECURITY.md
+│   ├── renovate-config.json
 │   ├── workflows/
 │   │   ├── android-ci.yml
 │   │   └── lint-check.yml
@@ -70,6 +71,7 @@ AndroidSamples/
 │
 ├── .gitignore 
 ├── .gitattributes
+├── renovate.json
 ├── LICENSE
 ├── CODEOWNERS 
 ├── CONTRIBUTING.md
