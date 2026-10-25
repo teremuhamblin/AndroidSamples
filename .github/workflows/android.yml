@@ -28,7 +28,7 @@ jobs:
           key: gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
 
       - name: Build AndroidSamples
-        run: bash .github/scripts/build_androidsamples.sh
+        run: bash .github/scripts/build_androidsamples.sh -Dorg.gradle.project.ci=true --gradle-user-home=./.gradle
 
       - name: Upload APKs
         uses: actions/upload-artifact@v4
