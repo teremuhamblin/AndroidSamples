@@ -1,6 +1,54 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
   "extends": [
     "config:recommended",
-    ":semanticCommits"
-  ]
+    ":semanticCommits",
+    ":semanticPrefixChore",
+    ":semanticPrefixFix",
+    ":automergeDisabled"
+  ],
+
+  "labels": ["dependencies", "android", "renovate", "enterprise"],
+
+  "timezone": "Europe/Paris",
+  "schedule": ["after 9am and before 6pm on monday"],
+
+  "dependencyDashboard": true,
+
+  "packageRules": [
+    {
+      "description": "Regroupement des dépendances Kotlin",
+      "matchPackagePatterns": ["^org.jetbrains.kotlin"],
+      "groupName": "kotlin-bundle",
+      "semanticCommitScope": "kotlin"
+    },
+    {
+      "description": "Regroupement des dépendances Jetpack AndroidX",
+      "matchPackagePatterns": ["^androidx"],
+      "groupName": "androidx-bundle",
+      "semanticCommitScope": "androidx"
+    },
+    {
+      "description": "Regroupement des dépendances Gradle",
+      "matchManagers": ["gradle"],
+      "groupName": "gradle-bundle",
+      "semanticCommitScope": "gradle"
+    },
+    {
+      "description": "Modules internes AndroidSamples",
+      "matchPaths": ["projects/**", "sources/**"],
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "android"
+    },
+    {
+      "description": "Mise à jour des GitHub Actions",
+      "matchManagers": ["github-actions"],
+      "semanticCommitScope": "ci"
+    }
+  ],
+
+  "commitMessageTopic": "{{depName}}",
+  "commitMessageExtra": "→ {{newVersion}}",
+  "commitMessageSuffix": "[skip ci]"
 }
