@@ -14,7 +14,7 @@ body:
     id: module
     attributes:
       label: Module concerné
-      description: Nom du module (ex: provisioning-qr, device-owner-demo…)
+      description: Nom du module, ex : provisioning-qr, device-owner
       placeholder: ex: provisioning-qr
     validations:
       required: true
