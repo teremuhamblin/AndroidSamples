@@ -1,0 +1,22 @@
+name: Security Scan
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # Tous les jours à 03h00
+  workflow_dispatch:
+
+jobs:
+  security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run GitHub Security Scan
+        uses: github/codeql-action/init@v3
+        with:
+          languages: java
+
+      - name: Analyze
+        uses: github/codeql-action/analyze@v3
