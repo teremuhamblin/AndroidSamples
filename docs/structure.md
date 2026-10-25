@@ -14,7 +14,7 @@
 # 📁 AndroidSamples
 - Version 1.0.0
 
-``text
+```text
 AndroidSamples/
 │
 ├── projects/
@@ -33,6 +33,7 @@ AndroidSamples/
 │   └── utils/
 │
 ├── docs/
+│   ├── architecture.md
 │   ├── structure.md 
 │   ├── architecture/
 │   │   ├── global-architecture.md
