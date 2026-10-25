@@ -1,6 +1,6 @@
 ###### README.md >> markdown
 # 🛡️ AndroidSamples
-- *Version 1.0.0*
+- *Version STABLE*
 
 <p align="center">
 
