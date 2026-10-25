@@ -71,6 +71,8 @@ AndroidSamples/
 ├── .gitignore 
 ├── .gitattributes
 ├── LICENSE
+├── CODEOWNERS 
+├── CONTRIBUTING.md
 └── README.md
 ```
 
