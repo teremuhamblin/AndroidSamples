@@ -1,0 +1,17 @@
+# AndroidSamples — Version STABLE
+# Définition des responsables des dossiers et fichiers du dépôt
+
+# Maintainers principaux
+* @teremuhamblin 
+
+# Dossiers techniques
+/projects/ @teremuhamblin 
+/sources/ @teremuhamblin 
+/docs/ @teremuhamblin 
+
+# Dossier GitHub
+/.github/ @teremuhamblin 
+
+# Fichiers racine
+README.md @teremuhamblin 
+LICENSE @teremuhamblin 
