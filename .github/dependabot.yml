@@ -1,14 +1,79 @@
 version: 2
+
 updates:
-  # Mise à jour du wrapper Gradle + dépendances
+  # 1. Mise à jour Gradle (wrapper + dépendances)
   - package-ecosystem: "gradle"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "gradle"
+    reviewers:
+      - "teremuhamblin"
+    commit-message:
+      prefix: "gradle"
+      include: "scope"
 
-  # Mise à jour des actions GitHub
+  # 2. Mise à jour des actions GitHub
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
+    labels:
+      - "ci"
+      - "github-actions"
+    reviewers:
+      - "teremuhamblin"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+
+  # 3. Scan de sécurité (CVE)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "security"
+      - "cve-scan"
+    reviewers:
+      - "teremuhamblin"
+    commit-message:
+      prefix: "security"
+      include: "scope"
+
+  # 4. Mise à jour Kotlin / AndroidX / AGP (via Gradle)
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "androidx"
+      - "kotlin"
+      - "agp"
+    reviewers:
+      - "teremuhamblin"
+    commit-message:
+      prefix: "android"
+      include: "scope"
+
+# 5. Regroupement automatique des PR
+groups:
+  gradle-dependencies:
+    patterns:
+      - "*gradle*"
+      - "*kotlin*"
+      - "*androidx*"
+      - "*agp*"
+
+  github-actions:
+    patterns:
+      - "actions/*"
+      - "*github-actions*"
+
+  security-updates:
+    patterns:
+      - "*security*"
+      - "*cve*"
