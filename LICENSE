@@ -1,0 +1,39 @@
+AndroidSamples License v1.0
+Copyright (c) 2026 Teremu
+
+1. Objet
+Cette licence couvre l’ensemble du contenu du dépôt AndroidSamples, incluant
+le code source, les modules Android, les scripts, la documentation, les
+diagrammes, et tout matériel associé.
+
+2. Usage autorisé
+- L’utilisation du code est autorisée à des fins d’apprentissage,
+  d’expérimentation, de démonstration technique et de formation.
+- La modification du code est autorisée pour un usage personnel ou éducatif.
+- La redistribution est autorisée uniquement sous forme de liens vers le dépôt
+  original ou sous forme de forks GitHub clairement identifiés.
+
+3. Restrictions
+- L’usage commercial du code, des modules, des scripts ou de la documentation
+  est strictement interdit sans autorisation écrite de l’auteur.
+- Il est interdit de republier le code sous une autre licence.
+- Il est interdit d’intégrer tout ou partie du projet dans un produit
+  commercial, un service payant, ou une solution propriétaire.
+- Il est interdit de supprimer les mentions de copyright.
+
+4. Absence de garantie
+Le projet AndroidSamples est fourni “tel quel”, sans aucune garantie de
+fonctionnement, de stabilité, de sécurité ou de conformité. L’auteur ne peut
+être tenu responsable de tout dommage, perte de données, dysfonctionnement ou
+problème résultant de l’utilisation du projet.
+
+5. Contributions
+Toute contribution au projet (issues, pull requests, documentation, code)
+devient automatiquement soumise à cette licence, sauf accord explicite
+contraire.
+
+6. Contact
+Pour toute demande d’autorisation commerciale, partenariat ou intégration
+professionnelle, contacter l’auteur du dépôt.
+
+Fin de la licence.
