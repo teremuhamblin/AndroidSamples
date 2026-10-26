@@ -1,4 +1,11 @@
 ###### README.md >> markdown
+
+---
+
+###### 🔥 🔥 → ➡️ >> CERTAINS FICHIERS ET DOSSIERS SERONT MODIFIÉS OU DÉPLACÉS
+
+---
+
 ```text
 🔥 Google‑Style (AOSP) → sobre, structuré, technique, professionnel  
 🔥 Header SVG Enterprise ultra‑graphique → impact visuel, branding, identité  
@@ -16,6 +23,7 @@
 - — AOSP × Enterprise × GitHub‑Premium Edition
 
 <p align="center">
+  
   <!-- HEADER SVG ENTERPRISE -->
   <img width="100%" src="https://svgshare.com/i/16uN.svg"/>
 </p>
