@@ -1,0 +1,9 @@
+// Root build.gradle for AndroidSamples v2.0 Enterprise
+
+plugins {
+    // Pas de plugins ici : tout est géré dans les modules
+}
+
+tasks.register("clean", Delete) {
+    delete(rootProject.buildDir)
+}
