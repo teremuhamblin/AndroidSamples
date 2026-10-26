@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================================================= -->
+    <!-- Application -->
+    <!-- ========================================================= -->
+    <string name="app_name">Provisioning QR</string>
+
+    <!-- ========================================================= -->
+    <!-- UI Labels -->
+    <!-- ========================================================= -->
+    <string name="title_generate_qr">QR Code de Provisioning</string>
+    <string name="description_generate_qr">
+        Ce QR Code contient le payload Android Enterprise pour le provisioning
+        Device Owner ou Profile Owner.
+    </string>
+
+    <!-- ========================================================= -->
+    <!-- Provisioning Payload -->
+    <!-- ========================================================= -->
+    <string name="payload_device_admin">com.androidsamples.policycontroller/.AdminReceiver</string>
+    <string name="payload_wifi_ssid">EnterpriseWiFi</string>
+    <string name="payload_wifi_password">Password123</string>
+    <string name="payload_organization">AndroidSamples Enterprise</string>
+
+    <!-- ========================================================= -->
+    <!-- Buttons -->
+    <!-- ========================================================= -->
+    <string name="btn_refresh_qr">Régénérer le QR</string>
+    <string name="btn_export_payload">Exporter le payload</string>
+
+    <!-- ========================================================= -->
+    <!-- Messages -->
+    <!-- ========================================================= -->
+    <string name="msg_qr_generated">QR Code généré avec succès.</string>
+    <string name="msg_payload_exported">Payload exporté dans le stockage.</string>
+    <string name="msg_error_generation">Erreur lors de la génération du QR.</string>
+
+</resources>
