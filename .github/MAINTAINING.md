@@ -1,4 +1,4 @@
-# Maintainers — AndroidSamples (Version STABLE)
+# Maintaining — AndroidSamples (Version STABLE)
 
 ## Maintainer principal
 **Nom :** Teremu  
