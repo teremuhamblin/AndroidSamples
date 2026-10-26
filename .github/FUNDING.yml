@@ -1,0 +1,57 @@
+# ============================================================
+# FUNDING.yml — AndroidSamples Enterprise Edition
+# ------------------------------------------------------------
+# Ce fichier active les options de financement pour le dépôt.
+# Il suit les standards GitHub Enterprise, avec sections
+# avancées, commentaires, et placeholders pour extensions.
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. GitHub Sponsors (principal canal de financement)
+# ------------------------------------------------------------
+# Renseigne ton identifiant GitHub pour activer le bouton
+# "Sponsor" sur la page du dépôt.
+github: teremuhamblin
+
+# ------------------------------------------------------------
+# 2. Plateformes de financement externes (optionnelles)
+# ------------------------------------------------------------
+# Laisse vide si non utilisé. GitHub ignore automatiquement
+# les champs non renseignés.
+patreon: ""            # https://patreon.com/
+open_collective: ""    # https://opencollective.com/
+ko_fi: ""              # https://ko-fi.com/
+liberapay: ""          # https://liberapay.com/
+issuehunt: ""          # https://issuehunt.io/
+otechie: ""            # https://otechie.com/
+tidelift: ""           # https://tidelift.com/
+community_bridge: ""   # https://communitybridge.org/
+lfx_crowdfunding: ""   # https://lfx.linuxfoundation.org/
+
+# ------------------------------------------------------------
+# 3. Section Enterprise — Extensions internes
+# ------------------------------------------------------------
+# Cette section est purement informative et n’est pas utilisée
+# par GitHub, mais elle documente les canaux internes possibles
+# pour les organisations, sponsors privés ou partenaires.
+enterprise:
+  contact: "contact@androidsamples-enterprise.dev"   # Adresse dédiée sponsors
+  partnership: "https://androidsamples-enterprise.dev/partners"
+  tiers:
+    - name: "Bronze"
+      benefits: "Mention dans README + badge sponsor"
+    - name: "Silver"
+      benefits: "Support prioritaire + accès early features"
+    - name: "Gold"
+      benefits: "Accès complet Enterprise + consulting"
+    - name: "Platinum"
+      benefits: "Partenariat officiel + intégration MDM/EMM"
+
+# ------------------------------------------------------------
+# 4. Notes internes
+# ------------------------------------------------------------
+# - Les champs non supportés par GitHub sont ignorés.
+# - La section Enterprise sert de documentation interne.
+# - Le fichier est compatible GitHub Sponsors et plateformes
+#   externes sans conflit.
+# ============================================================

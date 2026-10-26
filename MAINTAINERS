@@ -1,0 +1,132 @@
+# 👑 Maintainers — AndroidSamples v2.0 Enterprise
+
+Ce document définit les responsables officiels du projet AndroidSamples, leurs
+rôles, leurs responsabilités et les règles de gouvernance applicables aux
+modules, sources et pipelines CI/CD.
+
+---
+
+## 🧑‍🚀 Lead Maintainer
+
+### **@teremuhamblin**
+- Vision globale du projet  
+- Architecture Android Enterprise  
+- Gouvernance technique  
+- Validation finale des Pull Requests majeures  
+- Supervision CI/CD, sécurité et documentation  
+
+---
+
+## 🏗️ Core Maintainers
+
+Responsables du code mutualisé dans `sources/core`, `sources/enterprise` et `sources/utils`.
+
+### Rôles
+- Architecture interne  
+- Gestion des dépendances  
+- Qualité du code  
+- Maintien des standards Kotlin/Android  
+
+### Membres
+- **@teremuhamblin**
+
+---
+
+## 🧩 Project Maintainers
+
+Responsables des modules Android Enterprise situés dans `projects/`.
+
+### Modules
+- provisioning-qr  
+- provisioning-nfc  
+- device-owner-demo  
+- profile-owner-demo  
+- managed-configurations  
+- app-restrictions  
+- policy-controller  
+- work-profile-sample  
+
+### Rôles
+- Maintien du code spécifique module  
+- Documentation interne module  
+- Conformité Android Enterprise  
+- Tests fonctionnels  
+
+### Membres
+- **@teremuhamblin**
+
+---
+
+## 🛡️ Security Maintainers
+
+Responsables de la sécurité du dépôt, des modules Enterprise et des workflows CI.
+
+### Rôles
+- Analyse des vulnérabilités  
+- Vérification des dépendances (Renovate)  
+- Gestion des CVE  
+- Validation des correctifs critiques  
+
+### Membres
+- **@teremuhamblin**
+
+---
+
+## 📚 Documentation Maintainers
+
+Responsables du dossier `docs/` et de la cohérence documentaire.
+
+### Rôles
+- Architecture.md  
+- Structure.md  
+- Diagrams Mermaid  
+- API Android Enterprise  
+- Documentation modules  
+
+### Membres
+- **@teremuhamblin**
+
+---
+
+## 🧪 QA & CI/CD Maintainers
+
+Responsables des workflows GitHub Actions dans `.github/workflows/`.
+
+### Rôles
+- android-ci.yml  
+- lint-check.yml  
+- Tests automatisés  
+- Validation pré‑merge  
+- Monitoring pipeline  
+
+### Membres
+- **@teremuhamblin**
+
+---
+
+## 🔄 Processus de validation des Pull Requests
+
+Une Pull Request doit être validée par :
+
+1. **Un maintainer du module concerné**  
+2. **Un reviewer secondaire** (si changement majeur)  
+3. **Le Lead Maintainer (@teremuhamblin)** pour :
+   - modifications d’architecture  
+   - changements Enterprise  
+   - mises à jour critiques CI/CD  
+   - sécurité  
+
+---
+
+## 🏁 Objectif du projet
+
+Maintenir un écosystème Android Enterprise :
+
+- **Modulaire**  
+- **Sécurisé**  
+- **Documenté**  
+- **Scalable**  
+- **Professionnel**  
+
+Aligné avec les standards Android Enterprise, MDM/EMM, et les bonnes pratiques
+GitHub Enterprise.

@@ -1,0 +1,142 @@
+##############################################
+# ANDROIDSAMPLES — ENTERPRISE EDITION
+# GitHub Premium + Android Multi-Modules
+# Version STABLE — 2026
+##############################################
+
+###############
+# 🔥 ANDROID BUILD OUTPUTS
+###############
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.kotlin_module
+
+# Build directories (multi-modules)
+build/
+*/build/
+projects/*/build/
+sources/*/build/
+
+###############
+# ⚙️ GRADLE
+###############
+.gradle/
+gradle-app.setting
+gradle.properties
+gradle/
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+###############
+# 🧠 ANDROID STUDIO / INTELLIJ
+###############
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/libraries/
+
+# Captures
+captures/
+
+# Android Studio generated files
+local.properties
+
+###############
+# 🧩 KOTLIN / JAVA
+###############
+*.class
+*.jar
+*.war
+*.ear
+
+###############
+# 📦 LOGS / TEMP / CACHE
+###############
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+###############
+# 📁 SYSTEM FILES
+###############
+.DS_Store
+Thumbs.db
+
+###############
+# 🧪 TESTS / COVERAGE
+###############
+*.ec
+*.coverage
+test-output/
+junit-report.xml
+
+###############
+# 🗄️ ROOM DATABASE FILES
+###############
+*.db
+*.db-shm
+*.db-wal
+
+###############
+# 🐍 PYTHON (si utilisé dans sources/utils)
+###############
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+###############
+# 🐳 DOCKER (si utilisé dans CI/CD)
+###############
+docker-data/
+*.tar
+*.img
+
+###############
+# 📘 DOCUMENTATION
+###############
+docs/diagrams/*.svg
+docs/diagrams/*.png
+docs/architecture/*.png
+
+###############
+# 🛠️ GIT / GITHUB
+###############
+# GitHub metadata
+.github/actions-cache/
+.github/workflows/*.tmp
+.github/workflows/*.bak
+
+###############
+# 🧱 ECLIPSE (héritage)
+###############
+.project
+.classpath
+.settings/
+bin/
+gen/
+proguard/
+proguard-project.txt
+
+###############
+# 🛡️ ENTERPRISE / MDM / CONFIGS
+###############
+# JSON configs, policies, provisioning temp files
+*.policy.json.tmp
+*.config.json.tmp
+enterprise-cache/
+provisioning-temp/

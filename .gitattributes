@@ -1,0 +1,109 @@
+##############################################
+# ANDROIDSAMPLES — ENTERPRISE EDITION
+# GitHub Premium + Android Multi-Modules
+# Version STABLE — 2026
+##############################################
+
+###############
+# 🌐 NORMALISATION GLOBALE
+###############
+* text=auto eol=lf
+
+# Force UTF-8 pour tous les fichiers texte
+*.txt text
+*.md text
+*.json text
+*.xml text
+*.yaml text
+*.yml text
+*.gradle text
+*.gradle.kts text
+*.properties text
+
+###############
+# 📘 MARKDOWN / DOCS
+###############
+*.md linguist-language=Markdown
+docs/** linguist-documentation=true
+docs/**/*.mmd linguist-language=Mermaid
+
+###############
+# 🧬 KOTLIN / JAVA
+###############
+*.kt linguist-language=Kotlin
+*.kts linguist-language=Kotlin
+*.java linguist-language=Java
+*.kt text
+*.java text
+
+###############
+# 📱 ANDROID / XML
+###############
+*.xml linguist-language=XML
+*.aidl linguist-language=AIDL
+*.manifest linguist-language=XML
+
+###############
+# 🧩 JSON / CONFIGS ENTERPRISE
+###############
+*.json linguist-language=JSON
+*.policy.json linguist-language=JSON
+*.config.json linguist-language=JSON
+
+###############
+# 🖼️ ASSETS / IMAGES
+###############
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg text
+*.ico binary
+
+###############
+# 🧪 TESTS
+###############
+*.spec.kt linguist-language=Kotlin
+*.test.kt linguist-language=Kotlin
+*.spec.java linguist-language=Java
+
+###############
+# ⚙️ SCRIPTS
+###############
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+###############
+# 🐍 PYTHON (si utilisé dans sources/utils)
+###############
+*.py linguist-language=Python
+*.py text
+
+###############
+# 🧱 BUILD SYSTEMS
+###############
+*.gradle linguist-language=Gradle
+*.gradle.kts linguist-language=Gradle
+gradlew text
+gradlew.bat text
+
+###############
+# 🛠️ GITHUB / CI/CD
+###############
+.github/** linguist-generated=true
+.github/workflows/*.yml text
+.github/workflows/*.yaml text
+
+###############
+# 🧱 MODULES MULTI-PROJECTS
+###############
+projects/** linguist-vendored=false
+sources/** linguist-vendored=false
+
+###############
+# 🧪 IGNORER LES FICHIERS GÉNÉRÉS
+###############
+build/** linguist-generated=true
+*/build/** linguist-generated=true

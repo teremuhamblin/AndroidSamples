@@ -1,0 +1,57 @@
+name: 🔀 Pull Request
+description: Template pour les contributions AndroidSamples
+
+title: "[PR] "
+labels: ["review-needed"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour ta contribution à AndroidSamples !  
+        Remplis les sections ci-dessous pour faciliter la revue.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Résumé
+      placeholder: Décris brièvement les changements apportés.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      placeholder: Pourquoi ce changement est-il nécessaire ?
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: Détails des modifications
+      placeholder: Liste les fichiers, modules, classes modifiés.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Le code compile
+        - label: Les tests passent
+        - label: La documentation est mise à jour si nécessaire
+        - label: Aucun fichier inutile ajouté
+        - label: Respect des conventions du projet
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: Tests effectués
+      placeholder: Décris les tests manuels ou automatiques réalisés.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Captures d’écran (si UI)
+      placeholder: Ajoute des screenshots si nécessaire.

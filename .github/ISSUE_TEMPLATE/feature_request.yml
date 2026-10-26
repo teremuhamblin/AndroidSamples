@@ -1,0 +1,50 @@
+name: ✨ Feature Request
+description: Proposer une nouvelle fonctionnalité pour AndroidSamples
+title: "[Feature] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de proposer une amélioration claire et utile.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Résumé
+      placeholder: Décris brièvement la fonctionnalité souhaitée.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      placeholder: Pourquoi cette fonctionnalité est-elle utile ?
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Proposition d’implémentation
+      placeholder: Décris comment cela pourrait être implémenté.
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module concerné
+      options:
+        - provisioning-qr
+        - provisioning-nfc
+        - device-owner-demo
+        - profile-owner-demo
+        - managed-configurations
+        - app-restrictions
+        - policy-controller
+        - work-profile-sample
+        - core
+        - enterprise
+        - utils

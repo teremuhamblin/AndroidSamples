@@ -1,0 +1,13 @@
+---
+
+## 📄 7. `docs/diagrams/provisioning.mmd`
+
+```mermaid
+sequenceDiagram
+    participant Admin
+    participant Device
+    participant DPC as Device Policy Controller
+
+    Admin->>Device: QR / NFC Provisioning
+    Device->>DPC: Install Device Owner
+    DPC->>Device: Apply Policies

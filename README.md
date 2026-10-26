@@ -118,101 +118,51 @@ Chaque module est isolé, documenté, prêt à compiler, et suit une structure A
 ---
 
 ### 🛰️ Architecture
-- — Diagramme Mermaid intégré
-
-```mermaid
-flowchart TD
-
-    A[AndroidSamples] --> B[Provisioning QR/NFC]
-    A --> C[Device Owner]
-    A --> D[Profile Owner]
-    A --> E[Managed Configurations]
-    A --> F[App Restrictions]
-    A --> G[Policy Controller]
-    A --> H[Work Profile]
-
-    B --> B1[QR Payload]
-    B --> B2[NFC NDEF]
-
-    C --> C1[Policies DO]
-    C --> C2[LockTask]
-    C --> C3[DeviceAdminReceiver]
-
-    D --> D1[Work Profile Setup]
-    D --> D2[Cross‑Profile Intents]
-
-    E --> E1[JSON Schema]
-    E --> E2[AppConfig]
-
-    F --> F1[RestrictionsManager]
-
-    G --> G1[Policy Enforcement]
-    G --> G2[Enterprise Config]
-
-    H --> H1[Profile APIs]
-    H --> H2[Data Separation]
+- — Vue d’ensemble
+```schema
+                +---------------------------+
+                |       AndroidSamples      |
+                +---------------------------+
+                           |
+        ----------------------------------------------
+        |           |             |                  |
+   Provisioning   Device      Managed           Work Profile
+     (QR/NFC)     Owner     Configurations         Sample
+        |           |             |                  |
+   Setup flows   Policies     JSON configs      Profile APIs
 ```
 
 ---
 
-### 🧬 Structure du dépôt
-- AOSP‑Style
-
-```text
-AndroidSamples/
-│
-├── projects/        → Modules Android Enterprise
-├── sources/         → Code mutualisé (core, enterprise, utils)
-├── docs/            → Documentation + diagrammes Mermaid
-├── gradle/          → Configuration Enterprise du build
-└── .github/         → CI/CD, templates, sécurité, gouvernance
-```
+### 📚 Documentation
+- **Android Enterprise :**
+  >>https://developers.google.com/android/work  
+- **Android Management API :**
+  >>https://developers.google.com/android/management  
+- **Zero‑Touch :**
+  >>https://www.android.com/enterprise/management/zero-touch/
+   - *(android.com in Bing)*  
 
 ---
 
-### 📚 Documentation officielle
-- Android Enterprise  
-**https://developers.google.com/android/work**
-
-- Android Management API  
-**https://developers.google.com/android/management**
-
-- Zero‑Touch Enrollment
-**https://www.android.com/enterprise/management/zero-touch/**
-  
-
----
-
-### 🧭 Roadmap Enterprise v2.0
-
-✔️ Livré
-- README Enterprise Fusion  
-- Badges dynamiques par module  
-- Header SVG Enterprise  
-- Architecture Mermaid  
-- Structure multi‑modules complète  
-- CI/CD GitHub Actions Enterprise  
-- Dossier gradle/ Enterprise
-
-### 🚀 À venir
-- Documentation par module  
-- Screenshots provisioning DO/PO  
-- Exemple complet Policy Controller + DO  
-- Tests instrumentés Enterprise  
-- Guide MDM/EMM complet
+### 🗺️ Roadmap v1.0.0
+- [x] README.md Premium  
+- [x] Renommage du projet → AndroidSamples  
+- [ ] Ajout de captures d’écran  
+- [ ] Diagrammes Mermaid  
+- [ ] Documentation par module  
+- [ ] Exemple complet Device Owner + Policy Controller  
+- [ ] Intégration CI/CD GitHub Actions Enterprise  
 
 ---
 
 ### 📄 Licence
-Ce dépôt est sous licence Apache 2.0.
+>>Ce dépôt est sous licence Apache 2.0.
 
 ---
 
-### 🏁 Footer
-<p align="center">
-  <strong>AndroidSamples — AOSP × Enterprise × GitHub‑Premium Edition</strong><br/>
-  Optimisé pour ingénieurs Android, architectes MDM/EMM, experts Enterprise Mobility.<br/>
-  Conçu pour environnements Cyber‑Ops, FÉLIN, Black‑Ops, Ghost Recon‑Style.
-</p>
+### 🏁 Footer 
+- ✨ **AndroidSamples, *Cyber‑Enterprise Edition*.**
+- ✨ **Optimisé pour ingénieurs Android, architectes *MDM/EMM* et experts *Enterprise Mobility*.**
 
 ---
