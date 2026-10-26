@@ -21,9 +21,16 @@ Ce dossier fait partie de l’architecture Enterprise du dépôt.
 
 ```text
 gradle/
+├── wrapper/
+│   └── gradle-wrapper.properties
+│
+├── README.md
 ├── ci-gradle.properties
-└── wrapper/
-    └── gradle-wrapper.properties
+├── enterprise-gradle.properties
+├── enterprise-settings.gradle
+├── lint.properties
+├── security.properties
+└── versions.properties
 ```
 
 ---
