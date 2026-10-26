@@ -1,17 +1,19 @@
+###### README.md >> markdown
+```text
 🔥 Google‑Style (AOSP) → sobre, structuré, technique, professionnel  
 🔥 Header SVG Enterprise ultra‑graphique → impact visuel, branding, identité  
 🔥 Badges dynamiques par module → lisibilité, monitoring, qualité GitHub Enterprise  
-
-Je vais te livrer LE README ULTIME, un mélange parfait des trois univers :  
 ➡️ AOSP‑clean  
 ➡️ Enterprise‑Cyber‑Ops  
 ➡️ GitHub‑Premium avec badges dynamiques
+```
 
-Tu vas obtenir un README niveau Google / Microsoft / Meta, totalement unique.
+>> Nveau Google / Microsoft / Meta, totalement unique.
 
 ---
 
-🛡️ AndroidSamples — AOSP × Enterprise × GitHub‑Premium Edition
+# 🛡️ AndroidSamples
+- — AOSP × Enterprise × GitHub‑Premium Edition
 
 <p align="center">
   <!-- HEADER SVG ENTERPRISE -->
@@ -24,7 +26,8 @@ Tu vas obtenir un README niveau Google / Microsoft / Meta, totalement unique.
 
 ---
 
-📊 Badges dynamiques — Global
+### 📊 Badges dynamiques
+- — Global
 
 <p align="center">
 
@@ -46,7 +49,8 @@ Tu vas obtenir un README niveau Google / Microsoft / Meta, totalement unique.
 
 ---
 
-🧩 Badges dynamiques — Par module
+### 🧩 Badges dynamiques
+- — Par module
 
 <table>
 <tr><th>Module</th><th>Badge</th></tr>
@@ -95,7 +99,8 @@ Tu vas obtenir un README niveau Google / Microsoft / Meta, totalement unique.
 
 ---
 
-📘 Présentation (Style Google AOSP)
+### 📘 Présentation
+- Style Google AOSP
 
 AndroidSamples est un dépôt multi‑modules Android Enterprise, conçu pour fournir des implémentations de référence similaires aux Android Enterprise Samples officiels.
 
@@ -112,9 +117,10 @@ Chaque module est isolé, documenté, prêt à compiler, et suit une structure A
 
 ---
 
-🛰️ Architecture — Diagramme Mermaid intégré
+### 🛰️ Architecture
+- — Diagramme Mermaid intégré
 
-`mermaid
+```mermaid
 flowchart TD
 
     A[AndroidSamples] --> B[Provisioning QR/NFC]
@@ -145,13 +151,14 @@ flowchart TD
 
     H --> H1[Profile APIs]
     H --> H2[Data Separation]
-`
+```
 
 ---
 
-🧬 Structure du dépôt (AOSP‑Style)
+### 🧬 Structure du dépôt
+- AOSP‑Style
 
-`
+```text
 AndroidSamples/
 │
 ├── projects/        → Modules Android Enterprise
@@ -159,21 +166,24 @@ AndroidSamples/
 ├── docs/            → Documentation + diagrammes Mermaid
 ├── gradle/          → Configuration Enterprise du build
 └── .github/         → CI/CD, templates, sécurité, gouvernance
-`
+```
 
 ---
 
-📚 Documentation officielle
+### 📚 Documentation officielle
 - Android Enterprise  
-  https://developers.google.com/android/work  
+**https://developers.google.com/android/work**
+
 - Android Management API  
-  https://developers.google.com/android/management  
-- Zero‑Touch Enrollment  
-  https://www.android.com/enterprise/management/zero-touch/
+**https://developers.google.com/android/management**
+
+- Zero‑Touch Enrollment
+**https://www.android.com/enterprise/management/zero-touch/**
+  
 
 ---
 
-🧭 Roadmap Enterprise v2.0
+### 🧭 Roadmap Enterprise v2.0
 
 ✔️ Livré
 - README Enterprise Fusion  
@@ -184,7 +194,7 @@ AndroidSamples/
 - CI/CD GitHub Actions Enterprise  
 - Dossier gradle/ Enterprise
 
-🚀 À venir
+### 🚀 À venir
 - Documentation par module  
 - Screenshots provisioning DO/PO  
 - Exemple complet Policy Controller + DO  
@@ -193,12 +203,12 @@ AndroidSamples/
 
 ---
 
-📄 Licence
+### 📄 Licence
 Ce dépôt est sous licence Apache 2.0.
 
 ---
 
-🏁 Footer
+### 🏁 Footer
 <p align="center">
   <strong>AndroidSamples — AOSP × Enterprise × GitHub‑Premium Edition</strong><br/>
   Optimisé pour ingénieurs Android, architectes MDM/EMM, experts Enterprise Mobility.<br/>
