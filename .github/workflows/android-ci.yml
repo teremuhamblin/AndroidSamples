@@ -31,7 +31,7 @@ jobs:
         run: bash .github/scripts/build_androidsamples.sh
 
       - name: Upload APKs
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: androidsamples-apks
           path: '**/build/**/*.apk'
